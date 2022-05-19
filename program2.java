@@ -9,7 +9,7 @@ public class program2 {
     //     startProcess.waitFor();
     //  }
     public static void main(String[] args) {
-        // ClearConsole(); not working
+        // ClearConsole(); not working bcz of inheritIO
         System.out.print("\033[H\033[2J");
         System.out.flush(); // clear prev output
 
